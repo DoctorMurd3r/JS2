@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашняя работа</title>
+</head>
+
+<body>
+    <header>
+        <h1>Форма обратной связи</h1>
+    </header>
+    <main>
+	<form>
+      <p>Введите имя: <input id="Name" required pattern="[а-я]+" minlength="3"></p>
+		<p>Введите телефон: <input id="Phone" required pattern="[+][7][(][0-9]{3}[)][0-9]{3}[-][0-9]{4}"></p> 
+		<p>Введите E-mail: <input id="Email" required pattern="[a-zA-Z0-9]+@[a-z]+.ru"></p>
+		<p>Добавьте комментарий: <input id="Comment" required minlength="5"></p>
+		<p><input type="submit" value="Проверить"></p>
+	</form>
+		<script>
+		
+		</script>
+    </main>
+</body>
+
+</html>
